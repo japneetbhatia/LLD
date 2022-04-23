@@ -1,0 +1,12 @@
+Fan 
+2 
+4
+Light 
+1
+4
+AC
+1 
+12
+Fridge 
+1 
+5

@@ -1,0 +1,131 @@
+// Callcenter 
+
+1. Customer
+2. Operator
+3. Manager
+Area
+
+class PersonDetail {
+    public:    int personID;
+               String firstName;
+               String lastName;
+} 
+
+class Customer :: PersonDetail {
+    String email;
+    //String typeOfComplaint;
+    int complaintNumber;
+}
+
+class serviceProvider {
+
+}
+
+class Operator :: PersonDetail {
+    String operatingBranch;
+    boolean status; 
+    String reportingManager;
+}
+
+installation -> 2 arr[2] = operatingBranch
+3free 1busy
+
+
+
+//Anagrams 
+
+d->1 0
+o->1 0
+c->1 0
+
+
+d -> 0
+c -> 0
+o -> 0
+
+d -> 1
+
+// same character, same frequency
+String a = "doc";
+String b = "cod";
+
+a.length() == b.length();
+int n = a.length();
+
+//int[] freq = new int[26];
+HashMap<Character, Integer> map = new HashMap<>();
+for(i = 0 -> n - 1) {
+    char ch1 = a.charAt(i);
+    map.put(ch1, map.getOrDefault(ch1, 0) + 1);
+    char ch2 = b.charAt(i);
+    
+}
+
+
+
+
+//[a, b, c]
+
+boolean[] vis = 
+Input = [‘doc’, ‘cod’, ’code’, ‘coder’, ‘’redoc’, ‘foo’, ‘ecod’, bbbb]
+[doc, ‘code’, coder]
+
+
+3 -> doc,  foo, cod, and
+4 -> coder, ecod
+5 -> coder, redoc
+
+doc -> compare all 3 length
+cod -> 
+
+public static ArrayList<String> getFirstAnagrams(String[] str, int n) {
+    ArrayList<String> res = new ArrayList<>();
+
+    HashMap<Integer, ArrayList<String>> map1 = new HashMap<>();
+    for(int i = 0; i <; i++) {
+        int len = str[i].length();
+        map1.put(len, map.getOrDefault(al.add(str[i], new ArrayList<>())));
+    }
+
+    for(int key : map.keySet()) {
+        ArrayList<String> values = map.get(key);
+        for(int i = 0; i < values.size(); i++) {
+            //for(int j = 0; j < )
+            String ans = checkForAnagram(map.get(i - 1), map.get(i));
+            res.add(ans);
+        }
+    }
+
+    return res;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
